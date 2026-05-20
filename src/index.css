@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-sage-50: #f4f6f3;
+  --color-sage-100: #e9ece7;
+  --color-sage-200: #d3dad0;
+  --color-sage-300: #b3c0af;
+  --color-sage-400: #a8bba3;
+  --color-sage-500: #8ba285;
+  --color-sage-600: #6c8067;
+  --color-sage-700: #556551;
+  --color-sage-800: #465243;
+  --color-sage-900: #3c4639;
+  --font-poppins: "Poppins", "Inter", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-poppins);
+  background-color: #F5F5F5;
+  color: #333333;
+}
+
+/* Custom Scrollbar for better styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d3dad0;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b3c0af;
+}
+

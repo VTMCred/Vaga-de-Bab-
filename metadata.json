@@ -1,0 +1,6 @@
+{
+  "name": "Candidatura para Vaga de Babá",
+  "description": "Formulário elegante e passo a passo para candidatura à vaga de babá com envio automático de dados pelo WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
